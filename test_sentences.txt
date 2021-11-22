@@ -1,0 +1,129 @@
+hello my friend | {Greetings}
+good morning| {Greetings} 
+good afternoon|{Greetings} 
+good evening| {Greetings} 
+greetings, mate| {Greetings} 
+hi, mate| {Greetings} 
+It's good to see you| {Greetings}
+
+I now really want to know entry requirements of a program | {GetEntryRequirement}
+What are eligibility criteria of a docteral program | {GetEntryRequirement}
+I want to apply for a master program | {GetEntryRequirement}
+I want to know about the admission criteria for a doctoral program at Chalmers| {GetEntryRequirement}
+
+What are the available programs at Chalmers?|{GetAvailablePrograms}
+Are there any programs open for application?|{GetAvailablePrograms}
+
+Can you help me with my application? |{RequestHelpOnApplication}
+I need help on my application. |{RequestHelpOnApplication}
+Do you know where I can seek help for the application process? |{RequestHelpOnApplication}
+
+Do you know the tuition fee for a master student at Chalmers?| {TuitionFeeAmountQuery}
+How much is the tuition fee for a master student at Chalmers?| {TuitionFeeAmountQuery}
+Can you tell me the tuition fee for a master student at Chalmers?| {TuitionFeeAmountQuery}
+Can you tell me how much the tuition fee for a master student is? | {TuitionFeeAmountQuery}
+
+Am I required to pay tuition fee? |{NeedTuitionFeeQuery}
+Do I need to pay tuition fee?|{NeedTuitionFeeQuery}
+
+Do you know the annual living cost for a master student at Chalmers? | {LivingCostAmountQuery}
+How much does it cost to live in Sweden?| {LivingCostAmountQuery}
+How much should I expect to spend in terms of living costs? |{LivingCostAmountQuery}
+Can you tell me the annual living cost for a master student at Chalmers?|{LivingCostAmountQuery}
+
+Where can I find accommodation in Gothenburg? |{WhereFindAccommodationQuery}
+How do I find accommodation in Gothenburg? |{WhereFindAccommodationQuery}
+Are there any tips on finding accommodation in Gothenburg? |{WhereFindAccommodationQuery}
+
+Do I need to find accommodation by myself? |{NeedFindAccommodationQuery}
+I am an international student. Can I get help on finding accommodation? |{NeedFindAccommodationQuery}
+
+Do I need to apply for a resident permit?  |{NeedApplyResidentPermitQuery}
+Am I required to have a resident permit if I am going to study in Sweden? |{NeedApplyResidentPermitQuery}
+
+How do I apply for a resident permit? | {HowApplyResidentPermitQuery}
+Where can I find information about application of resident permit?  | {HowApplyResidentPermitQuery}
+Can you help me with my application of resident permit?  | {HowApplyResidentPermitQuery}
+Any tips on how to apply for a resident permit?  | {HowApplyResidentPermitQuery}
+
+I am an international student. | {InformStudentType}
+I am not a EEA region citizen. | {InformStudentType}
+I am a non EU region citizen. | {InformStudentType}
+I am a student from China. | {InformStudentType}
+
+I think MPSYS is a good program.| {InformInterestedProgramName}
+I want to have a look on MPSYS| {InformInterestedProgramName}
+I am interested in MPCAS program. | {InformInterestedProgramName}
+
+Yes. | {Positive}
+Sure, I would love that. | {Positive}
+
+No. | {Negative}
+Not a chance. | {Negative}
+
+Where is the library? | {LocationQuery}
+Can you tell me where the library is?  | {LocationQuery}
+Do you know where the library is?  | {LocationQuery}
+Can you help me find the main library?  | {LocationQuery}
+I want to go to a restaurant. | {LocationQuery}
+How do I get to the library? |  {LocationQuery}
+
+I want to have some Indian food.  | {RestaurantChoice}
+Some Chinese food would be nice. | {RestaurantChoice}
+I think the first restaurant on the list is good.  | {RestaurantChoice}
+I would like to go to Restaurant 1.  | {RestaurantChoice}
+
+
+Does CTH offer any scholarships to students?|{SocholarshipQuery}
+Is there a chance that I can get scholarships from Chalmers? |{SocholarshipQuery}
+What kind of scholarships does Chalmers provide? |{SocholarshipQuery}
+How do I search and apply for scholarships?  |{SocholarshipQuery}
+Do you know how I can search and apply for scholarships?  |{SocholarshipQuery}
+
+Can I have the email address of the program director| {ProgramPropertyQuery}
+May I have the contact information of the program director| {ProgramPropertyQuery}
+Can you give me a brief introduction on the content of the program?| {ProgramPropertyQuery}
+I would like to know the curriculum of the program.| {ProgramPropertyQuery}
+Show me the learning outcome of the program.| {ProgramPropertyQuery}
+I wonder if I can get into contact with the director of the program. | {ProgramPropertyQuery}
+
+I want to see the menu of the restaurant. Can you show me?| {RestaurantPropertyQuery}
+I want to see more information about Restaurant 1.| {RestaurantPropertyQuery}
+
+Are there any available activities on campus this week? | {RequestAvailableActivities}
+Any recommendation on activities this week? | {RequestAvailableActivities}
+Are there any activities about movies this week? | {RequestAvailableActivities}
+I want to see a movie. | {RequestAvailableActivities}
+Can you find me the most recent seminar on campus? | {RequestAvailableActivities}
+
+Can you show me the location where it will take place? | {ActivityPropyertQuery}
+May I have the address of the event? | {ActivityPropyertQuery}
+
+I do not like Indian food. | {ExcludeOptions}
+I do not like parties. | {ExcludeOptions}
+parties are not my things | {ExcludeOptions}
+
+I want to book a study room. | {RequestStudyRoomBooking}
+Can you help me book a study room? | {RequestStudyRoomBooking}
+Is there any study room available at the moment? | {RequestStudyRoomBooking}
+
+There will be 3 people.| {ResponseToNumPeople}
+3 of my teammates and me.| {ResponseToNumPeople}
+3, I think.| {ResponseToNumPeople}
+
+I want to book the study room from 10 a.m. to 5 p.m. |{ResponseToBookingTime}
+Then I would like to change the booking time to from 1 p.m. to 5 p.m. |{ResponseToBookingTime}
+Then I would like to start from 1 p.m. instead|{ResponseToBookingTime}
+I would like to change the starting time to 1 p.m. instead.|{ResponseToBookingTime}
+Ok. I think I can end earlier at 2 p.m. then.|{ResponseToBookingTime}
+
+Goodbye.|{Goodbye}
+Bye.|{Goodbye}
+Ciao|{Goodbye}
+See you tomorrow|{Goodbye}
+
+What is your name?|{RequestAgentName}
+What should I call you?|{RequestAgentName}
+
+What about MPCAS? | {InferFromContext}
+What happened?  | {inferFromContext}
